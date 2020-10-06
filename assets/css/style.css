@@ -108,29 +108,33 @@ p {
 
 .top-nav-menu .navbar #navbarCollapse ul li ul {
 	margin: 0px;
-	padding: 0px;
-	background: rgb(0,0,0,0.3);
+    padding: 0px;
+    border: none;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.08);
+    min-width: 14rem;
 }
 
 .top-nav-menu .navbar #navbarCollapse ul li ul li {
-	border-bottom: 1px solid #212121;
-	padding: 5px;
+	
 }
 
 .top-nav-menu .navbar #navbarCollapse ul li ul li:hover {
-	background: rgb(0,0,0,0.1);
+	background: rgba(0,0,0,0.1);;
 }
 
 .top-nav-menu .navbar #navbarCollapse ul li ul li a {
-	color: #EFEFEF;
-	margin: 0;
-	padding: 0px;
-	font-size: 15px;
+	color: #000;
+    margin: 0;
+    padding: 0px;
+    font-size: 15px;
+    display: block;
+    padding: 10px 15px;
+    font-size: 14px;
 }
 
 .top-nav-menu .navbar #navbarCollapse ul li ul li a:hover {
 	text-decoration: none;
-	color: lightyellow;
+	color: #5481DD;
 	padding-left: 10px;
 	transition: 0.5s;
 }
@@ -147,6 +151,10 @@ p {
     border-radius: 100px;
 }
 
+.login-button a:hover {
+	background: #4A95DB;
+}
+
 .get-started-button {
 
 }
@@ -158,10 +166,10 @@ p {
     margin: 8px 0px 0px 0px;
     border-radius: 100px;
     border: 1px solid #007bff !important;
-}
+}	
 
 .get-started-button a:hover {
-    background: #007bff;
+    background: #4A95DB;
 }
 
 .banner-part {
@@ -189,7 +197,7 @@ p {
 
 .banner-button:hover {
     color: #FFF;
-    background: #007bff;
+    background: #4A95DB;
     text-decoration: none;
 }
 

@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'RalewayWemiBold';
+  font-family: 'RalewaySemiBold';
   src: url('../fonts/raleway_semibold/raleway-semi-bold.eot');
   src: url('../fonts/raleway_semibold/raleway-semi-bold.eot?#iefix') format('embedded-opentype'),
        url('../fonts/raleway_semibold/raleway-semi-bold.woff') format('woff'),
@@ -10,23 +10,23 @@
 }
 
 @font-face {
-  font-family: 'GothamProLight';
-  src: url('fonts/gothampro_light/gotham-pro-light.eot');
-  src: url('fonts/gothampro_light/gotham-pro-light.eot?#iefix') format('embedded-opentype'),
-       url('fonts/gothampro_light/gotham-pro-light.woff') format('woff'),
-       url('fonts/gothampro_light/gotham-pro-light.ttf') format('truetype'),
-       url('fonts/gothampro_light/gotham-pro-light.svg#gotham-pro-light') format('svg');
+  font-family: 'MontserratSemiBold';
+  src: url('../fonts/montserrat-semi-bold/montserrat-semi-bold.eot');
+  src: url('../fonts/montserrat-semi-bold/montserrat-semi-bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/montserrat-semi-bold/montserrat-semi-bold.woff') format('woff'),
+       url('../fonts/montserrat-semi-bold/montserrat-semi-bold.ttf') format('truetype'),
+       url('../fonts/montserrat-semi-bold/montserrat-semi-bold.svg#montserrat-semi-bold') format('svg');
   font-weight: lighter;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'GothamProMedium';
-  src: url('fonts/gothampro_medium/gotham-pro-medium.eot');
-  src: url('fonts/gothampro_medium/gotham-pro-medium.eot?#iefix') format('embedded-opentype'),
-       url('fonts/gothampro_medium/gotham-pro-medium.woff') format('woff'),
-       url('fonts/gothampro_medium/gotham-pro-medium.ttf') format('truetype'),
-       url('fonts/gothampro_medium/gotham-pro-medium.svg#gotham-pro-medium') format('svg');
+  src: url('../fonts/gothampro_medium/gotham-pro-medium.eot');
+  src: url('../fonts/gothampro_medium/gotham-pro-medium.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/gothampro_medium/gotham-pro-medium.woff') format('woff'),
+       url('../fonts/gothampro_medium/gotham-pro-medium.ttf') format('truetype'),
+       url('../fonts/gothampro_medium/gotham-pro-medium.svg#gotham-pro-medium') format('svg');
   font-weight: medium;
   font-style: normal;
 }
@@ -36,38 +36,38 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6{
-	font-family: 'GothamProMedium', sans-serif;
+	font-family: 'MontserratSemiBold';
 	color: #000000;
 	line-height: 24px;
 }
 
 h1 {
-	font-family: 'GothamProMedium', sans-serif;
+	font-family: 'MontserratSemiBold';
 	font-size: 60px;
 	line-height: 24px;
 }
 
 h3 {
-	font-family: 'GothamProMedium', sans-serif;
+	font-family: 'MontserratSemiBold';
 	color: #212121;
 	font-size: 26px;
 	line-height: 24px;
 }
 
 h4 {
-	font-family: 'GothamProMedium', sans-serif;
+	font-family: 'MontserratSemiBold';
 	font-size: 24px;
 	line-height: 24px;
 }
 
 h5 {
-	font-family: 'GothamProMedium', sans-serif;
+	font-family: 'MontserratSemiBold';
 	font-size: 20px;
 	line-height: 24px;
 }
 
 h6 {
-	font-family: 'GothamProMedium', sans-serif;
+	font-family: 'MontserratSemiBold';
 	font-size: 18px;
 	line-height: 24px;
 }
@@ -100,7 +100,7 @@ p {
 }
 
 .top-nav-menu .navbar #navbarCollapse ul li a {
-	font-family: 'RalewayWemiBold';
+	font-family: 'RalewaySemiBold';
     padding: 9px 16px;
 }
 

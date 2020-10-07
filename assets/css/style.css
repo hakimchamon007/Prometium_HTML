@@ -48,7 +48,7 @@ body {
 
 h1, h2, h3, h4, h5, h6{
 	font-family: 'MontserratSemiBold';
-	color: #000000;
+	color: #202020;
 	line-height: 24px;
 }
 
@@ -57,6 +57,13 @@ h1 {
 	color: #FFFFFF;
 	font-size: 50px;
 	line-height: 55px;
+}
+
+h2 {
+	font-family: 'MontserratSemiBold';
+	color: #202020;
+	font-size: 32px;
+	line-height: 35px;
 }
 
 h3 {
@@ -146,7 +153,7 @@ p {
 
 .top-nav-menu .navbar #navbarCollapse ul li ul li a:hover {
 	text-decoration: none;
-	color: #5481DD;
+	color: #5D6ADF;
 	padding-left: 10px;
 	transition: 0.5s;
 }
@@ -160,7 +167,8 @@ p {
     background: WHITE;
     padding: 2px 25px 5px 25px;
     margin: 8px 10px 0px 0px;
-    border-radius: 100px;
+	border-radius: 100px;
+	border: none;
 }
 
 .login-button a:hover {
@@ -177,7 +185,7 @@ p {
     padding: 2px 22px 5px 25px;
     margin: 8px 0px 0px 0px;
     border-radius: 100px;
-    border: 1px solid #007bff !important;
+    border: 1px solid #FFFFFF !important;
 }	
 
 .get-started-button a:hover {
@@ -227,12 +235,13 @@ p {
 
 .service-para p {
 	margin-bottom: 20px;
+	padding-top: 5px;
 }
 
 .service-icon img {
     width: 100px;
 	height: auto;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 }
 
 .service-button {
@@ -241,12 +250,272 @@ p {
 
 .service-button a {
 	font-family: 'MontserratRegular';
+	color: #535353;
 	font-size: 13px;
 	padding: 10px 35px;
 	border: 1px solid #aeacac;
 	border-radius: 100px;
 	font-weight: bold;
 }
+
+.service-button a:hover {
+	text-decoration: none;
+}	
+
+.features-top-tile {
+	font-family: 'MontserratRegular';
+	color: #87959c;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.features-title {
+	font-family: 'MontserratSemiBold';
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.slider-info.d-flex {
+    padding-top: 15px;
+}
+.slider-content {
+    padding-left: 30px;
+}
+.slider-content h6 {
+    font-size: 15px;
+}
+.slider-content p {
+    font-size: 14px;
+    line-height: 30px;
+	color: #5f5f5f;
+	margin-bottom: 10px;
+	font-weight: 500;
+	padding-top: 0px;
+}
+
+/* OWL Carousal Slider Start */
+
+
+/* OWL Carousal Slider End */
+
+
+
+/* Client Testmonials Area Start */
+
+.client-testmonial-area {
+	background: url("../images/testmonials_background.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: 100% 100%;
+	padding-top: 50px;
+	margin-top: 50px;
+}
+
+.client-testmonial-top-tile {
+	font-family: 'MontserratRegular';
+	color: #87959c;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.client-testmonial-next-title {
+	font-family: 'MontserratSemiBold';
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.shadow-effect {
+	background: #fff;
+	padding: 20px;
+	border-radius: 4px;
+	text-align: center;
+	border:1px solid #ECECEC;
+	box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
+}
+
+#testimonials-list .shadow-effect p {
+	font-family: inherit;
+	font-size: 17px;
+	line-height: 1.5;
+	margin: 0 0 17px 0;
+	font-weight: 300;
+}
+
+.testimonial-name {
+	margin: -17px auto 0;
+	display: table;
+	width: auto;
+	background: #3190E7;
+	padding: 9px 35px;
+	border-radius: 12px;
+	text-align: center;
+	color: #fff;
+	box-shadow: 0 9px 18px rgba(0,0,0,0.12), 0 5px 7px rgba(0,0,0,0.05);
+}
+
+#testimonials-list .item {
+	text-align: center;
+	padding: 50px;
+	opacity: .2;
+	-webkit-transform: scale3d(0.8, 0.8, 1);
+	transform: scale3d(0.8, 0.8, 1);
+	transition: all 0.3s ease-in-out;
+}
+
+#testimonials-list .owl-item.active.center .item {
+	opacity: 1;
+	-webkit-transform: scale3d(1.0, 1.0, 1);
+	transform: scale3d(1.0, 1.0, 1);
+}
+
+.owl-carousel .owl-item img {
+	-webkit-transform-style: preserve-3d;
+			transform-style: preserve-3d;
+	max-width: 90px;
+	border-radius: 50%;
+	margin: 0 auto 17px;
+}
+	
+#testimonials-list.owl-carousel .owl-dots .owl-dot.active span,
+#testimonials-list.owl-carousel .owl-dots .owl-dot:hover span {
+	background: #3190E7;
+	-webkit-transform: translate3d(0px, -50%, 0px) scale(0.7);
+			transform: translate3d(0px, -50%, 0px) scale(0.7);
+}
+
+#testimonials-list.owl-carousel .owl-dots{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+#testimonials-list.owl-carousel .owl-dots .owl-dot{
+	display: inline-block;
+}
+
+#testimonials-list.owl-carousel .owl-dots .owl-dot span {
+	background: #3190E7;
+	display: inline-block;
+	height: 20px;
+	margin: 0 2px 5px;
+	-webkit-transform: translate3d(0px, -50%, 0px) scale(0.3);
+			transform: translate3d(0px, -50%, 0px) scale(0.3);
+	-webkit-transform-origin: 50% 50% 0;
+			transform-origin: 50% 50% 0;
+	transition: all 250ms ease-out 0s;
+	width: 20px;
+}
+
+/* Client Testmonials Area End */
+
+
+/* Features Presentation Area Start */
+.features-presentation-area {
+	background: url("../images/features_presentation.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: 100% 100%;
+	padding: 60px 0px;
+	margin: 60px 0px;
+}
+.features-presentation-area-one {
+	margin: 25px 0px 55px 0px;
+}
+
+.features-presentation-area-two {
+	margin: 55px 0px 15px 0px;
+}
+
+.features-presentation-title-content img {
+	padding-bottom: 15px;
+}
+
+.features-presentation-title-content h6 {
+    text-transform: uppercase;
+    color: #FFF;
+    margin-bottom: 0;
+}
+
+.features-presentation-title-content p {
+    color: #FFF;
+    letter-spacing: 1px;
+}
+/* Features Presentation Area End */
+
+/* Expertise Area Start */
+
+.expertise-area {
+	padding: 30px 0px;
+}
+
+.expertise-top-tile {
+	font-family: 'MontserratRegular';
+	color: #87959c;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.expertise-phylosophy-title, .expertise-management-title, .expertise-company-title {
+	font-family: 'MontserratSemiBold';
+	margin-bottom: 0px;
+}
+
+hr.expertise-phylosophy-hr {
+	border-top: 2px solid #20edd7;
+	margin-top: 10px;
+}
+
+hr.expertise-management-hr {
+	border-top: 2px solid #0bd7fc;
+	margin-top: 10px;
+}
+
+hr.expertise-company-hr {
+	border-top: 2px solid #736de2;
+	margin-top: 10px;
+}
+
+/* Expertise Area End */
+
+
+/* Our Team Members Start */
+
+.team-member-area {
+	padding-top: 50px;
+}
+
+.team-member-top-tile {
+	font-family: 'MontserratRegular';
+	color: #87959c;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.team-member-next-title {
+	font-family: 'MontserratSemiBold';
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+/* Our Team Members End */
+
 
 
 

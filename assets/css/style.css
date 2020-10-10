@@ -260,6 +260,9 @@ p {
 
 .service-button a:hover {
 	text-decoration: none;
+	background: #4A95DB;
+	color: #FFFFFF;
+	border: #FFFFFF;
 }	
 
 .features-top-tile {

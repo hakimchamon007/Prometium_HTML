@@ -262,7 +262,7 @@ p {
 	text-decoration: none;
 	background: #4A95DB;
 	color: #FFFFFF;
-	border: #FFFFFF;
+	border: 1px solid #FFFFFF;
 }	
 
 .features-top-tile {

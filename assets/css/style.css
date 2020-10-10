@@ -554,7 +554,7 @@ p.team-member-designation {
 /* Our Team Members End */
 
 
-/* Plan Pricing Business Partner Area Start */
+/* Plan Pricing Area Start */
 
 .plan-pricing-business-partner-area {
 	margin-top: 125px;
@@ -581,7 +581,171 @@ p.team-member-designation {
 	text-align: center;
 }
 
+.basic-pricing-plan .basic-plan-title {
+	font-family: 'MontserratSemiBold';
+	font-size: 16px;
+	line-height: 28px;
+	color: #20edd7;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	letter-spacing: 2px;
+}
 
+.premium-pricing-plan .premium-plan-title {
+	font-family: 'MontserratSemiBold';
+	font-size: 16px;
+	line-height: 28px;
+	color: #0bd7fc;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	letter-spacing: 2px;
+}
+
+.business-pricing-plan .business-plan-title {
+	font-family: 'MontserratSemiBold';
+	font-size: 16px;
+	line-height: 28px;
+	color: #1f90f9;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	letter-spacing: 2px;
+}
+
+.ultimate-pricing-plan .ultimate-plan-title {
+	font-family: 'MontserratSemiBold';
+	font-size: 16px;
+	line-height: 28px;
+	color: #655ee0;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	letter-spacing: 2px;
+}
+
+.basic-pricing-plan .basic-plan-price, .premium-pricing-plan .premium-plan-price, .business-pricing-plan .business-plan-price, .ultimate-pricing-plan .ultimate-plan-price {
+	font-family: 'MontserratRegular';
+	font-size: 50px;
+	line-height: 28px;
+	color: #262b2f;
+	padding-top: 20px;
+	font-weight: 800;
+ }
+
+.pricing-dollar-sign {
+	padding-right: 3px;
+}
+
+.pricing-dollar-sign sup {
+	top: -12px;
+}
+
+.basic-pricing-plan .basic-plan-duration, .premium-pricing-plan .premium-plan-duration, .business-pricing-plan .business-plan-duration, .ultimate-pricing-plan .ultimate-plan-duration {
+  	font-family: 'OpenSans';
+  	font-size: 14px;
+  	line-height: 20px;
+  	color: #87959c;
+  	padding-top: 20px;
+	font-style: italic;
+}
+
+.basic-plan-pricing-features, .premium-plan-pricing-features, .business-plan-pricing-features, .ultimate-plan-pricing-features {
+	padding-left: 0px;
+	padding-bottom: 25px;
+}
+
+ul.basic-plan-pricing-features li {
+	font-family: 'OpenSans';
+	color: #535353;
+	font-size: 15px;
+	line-height: 42px;
+	list-style: none;
+	text-transform: lowercase;
+}
+
+ul.premium-plan-pricing-features li {
+	font-family: 'OpenSans';
+	color: #535353;
+	font-size: 15px;
+	line-height: 42px;
+	list-style: none;
+	text-transform: lowercase;
+}
+
+ul.business-plan-pricing-features li {
+	font-family: 'OpenSans';
+	color: #535353;
+	font-size: 15px;
+	line-height: 42px;
+	list-style: none;
+	text-transform: lowercase;
+}
+
+ul.ultimate-plan-pricing-features li {
+	font-family: 'OpenSans';
+	color: #535353;
+	font-size: 15px;
+	line-height: 42px;
+	list-style: none;
+	text-transform: lowercase;
+}
+
+.pricing-basic-tick i {
+	font-size: 13px;
+	padding-right: 15px;
+	color: #20edd7;
+}
+
+.pricing-premium-tick i {
+	 font-size: 13px;
+	 padding-right: 15px;
+	 color: #0bd7fc;
+ }
+
+.pricing-business-tick i {
+	font-size: 13px;
+	padding-right: 15px;
+	color: #1f90f9;
+}
+
+.pricing-ultimate-tick i {
+	font-size: 13px;
+	padding-right: 15px;
+	color: #655ee0;
+}
+
+.basic-plan-pricing-button, .business-plan-pricing-button, .ultimate-plan-pricing-button {
+	font-family: 'MontserratRegular';
+	color: #535353;
+	font-size: 13px;
+	padding: 10px 35px;
+	border: 1px solid #aeacac;
+	border-radius: 100px;
+	font-weight: bold;
+}
+
+.premium-plan-pricing-button {
+	font-family: 'MontserratRegular';
+	color: #FFFFFF;
+	font-size: 13px;
+	padding: 10px 35px;
+	border-radius: 100px;
+	font-weight: bold;
+	background: #0bd7fc;
+	box-shadow: 0px 0px 15px .5px #c6c5c5;
+}
+
+a.basic-plan-pricing-button:hover, a.business-plan-pricing-button:hover, a.ultimate-plan-pricing-button:hover {
+	text-decoration: none;
+	background: #4A95DB;
+	border: 1px solid #FFFFFF;
+	color: #FFFFFF;
+}
+
+a.premium-plan-pricing-button:hover {
+	text-decoration: none;
+	background: #4A95DB;
+	border: none;
+	color: #FFFFFF;
+}
 
 @media (min-width: 900px) {
 	.background {
@@ -592,16 +756,17 @@ p.team-member-designation {
 .panel {
 	background-color: #fff;
 	border-radius: 10px;
-	padding: 15px 25px;
+	padding: 15px 0px;
 	position: relative;
 	width: 100%;
 	z-index: 10;
 }
 
 .pricing-table {
-	box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.08), 0px 20px 31px 3px rgba(0, 0, 0, 0.09), 0px 8px 20px 7px rgba(0, 0, 0, 0.02);
+	/*box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.08), 0px 20px 31px 3px rgba(0, 0, 0, 0.09), 0px 8px 20px 7px rgba(0, 0, 0, 0.02);*/
 	display: flex;
 	flex-direction: column;
+	border: 1px solid rgba(0,0,0,.1);
 }
 
 @media (min-width: 900px) {
@@ -612,27 +777,20 @@ p.team-member-designation {
 
 .pricing-table * {
 	text-align: center;
-	text-transform: uppercase;
 }
 
-.pricing-plan {
-	border-bottom: 1px solid #e1f1ff;
-	padding: 25px;
-}
-
-.pricing-plan:last-child {
+.basic-pricing-plan:last-child, .premium-pricing-plan:last-child, .business-pricing-plan:last-child, .ultimate-pricing-plan:last-child {
 	border-bottom: none;
 }
 
 @media (min-width: 900px) {
-	.pricing-plan {
+	.basic-pricing-plan, .premium-pricing-plan, .business-pricing-plan, .ultimate-pricing-plan {
 		border-bottom: none;
-		border-right: 1px solid #e1f1ff;
 		flex-basis: 100%;
-		padding: 25px 50px;
+		padding: 25px 0px;
 	}
 
-	.pricing-plan:last-child {
+	.basic-pricing-plan:last-child, .premium-pricing-plan:last-child, .business-pricing-plan:last-child, .ultimate-pricing-plan:last-child {
 		border-right: none;
 	}
 }
@@ -699,10 +857,34 @@ p.team-member-designation {
 	background-color: #269aff;
 }
 
-/* Plan Pricing Business Partner Area End */
+/* Plan Pricing Area End */
 
 
+/* Business Partner Area Start */
 
+.business-partner-title {
+	padding-top: 115px;
+	padding-bottom: 75px;
+}
+
+.business-partner-top-tile {
+	font-family: 'MontserratRegular';
+	color: #87959c;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.business-partner-next-title {
+	font-family: 'MontserratSemiBold';
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+/* Business Partner Area End */
 
 
 

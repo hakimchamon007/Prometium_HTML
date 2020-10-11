@@ -1140,11 +1140,15 @@ a.premium-plan-pricing-button:hover {
 	font-weight: bold;
 	padding-bottom: 10px;
 }
-.prometium-get-info-account ul li {
-	color: #535353;
-	font-family: "OpenSans";
-	font-size: 14px;
-	line-height: 42px;
+.prometium-get-info-account ul li a {
+	 color: #535353;
+	 font-family: "OpenSans";
+	 font-size: 14px;
+	 line-height: 42px;
+ }
+.prometium-get-info-account ul li a:hover {
+	text-decoration: none;
+	color: #5973DE;
 }
 .instagram-images img {
 	margin-top: 15px;
@@ -1152,7 +1156,7 @@ a.premium-plan-pricing-button:hover {
 	height: 50px;
 	margin-bottom: 10px;
 }
-.prometium-contact-us ul li {
+.prometium-contact-us ul li{
 	font-family: "OpenSans";
 	color: #535353;
 	font-size: 13px;
@@ -1171,6 +1175,9 @@ a.premium-plan-pricing-button:hover {
 }
 .prometium-copyright-span{
 	font-weight: bold;
+}
+.payments-method {
+	margin-top: 5px;
 }
 /* Footer Are End */
 

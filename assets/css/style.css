@@ -530,6 +530,7 @@ hr.expertise-company-hr {
 
 .team-members-details {
 	text-align: center;
+	margin-bottom: 60px;
 }
 
 .team-members-details img {
@@ -569,6 +570,7 @@ p.team-member-designation {
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: 100% 100%;
+	margin-bottom: 50px;
 }
 
 .plan-pricing-title {
@@ -595,7 +597,7 @@ p.team-member-designation {
 .premium-pricing-plan {
 	box-shadow: 0px 0px 15px .5px #c6c5c5;
 	margin-top: -20px;
-	margin-bottom: -20px;
+	margin-bottom: -20px !important;
 	border-top: 5px solid #0bd7fc;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
@@ -642,6 +644,10 @@ p.team-member-designation {
 	text-transform: uppercase;
 	padding-bottom: 5px;
 	letter-spacing: 2px;
+}
+
+.basic-pricing-plan, .premium-pricing-plan, .business-pricing-plan, .ultimate-pricing-plan {
+	margin-bottom: 0px;
 }
 
 .basic-pricing-plan .basic-plan-price, .premium-pricing-plan .premium-plan-price, .business-pricing-plan .business-plan-price, .ultimate-pricing-plan .ultimate-plan-price {
@@ -910,6 +916,14 @@ a.premium-plan-pricing-button:hover {
 	text-align: center;
 }
 
+.business-analytics, .business-solutions, .code-ingredients, .business-analytics {
+	box-shadow: 0px 0px 15px .5px #c6c5c5;
+	border-radius: 5px;
+	padding: 40px 20px 20px 20px;
+	background: #FFFFFF;
+	margin-bottom: 20px;
+}
+
 .business-analytics img, .business-solutions img, .code-ingredients img, .business-analytics img {
 	height: 82px;
 	width: auto;
@@ -932,13 +946,6 @@ a.premium-plan-pricing-button:hover {
 	padding-top: 0px;
 }
 
-.business-analytics, .business-solutions, .code-ingredients, .business-analytics {
-	box-shadow: 0px 0px 15px .5px #c6c5c5;
-	border-radius: 5px;
-	padding: 40px 20px 20px 20px;
-	background: #FFFFFF;
-}
-
 .business-partner-button-part {
 	text-align: center;
 	padding-top: 35px;
@@ -949,7 +956,6 @@ a.premium-plan-pricing-button:hover {
 	color: #FFFFFF;
 	padding: 13px 40px;
 	border-radius: 100px;
-	margin-top: 20px;
 	display: inline-block;
 	text-align: center;
 }
@@ -969,6 +975,156 @@ a.premium-plan-pricing-button:hover {
 }
 
 /* Business Partner Area End */
+
+
+
+/* Sign Up Area Start */
+
+.sign-up-area {
+	margin-top: 125px;
+	background: url("../images/sign-up-background.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: 100% 100%;
+	margin-bottom: 50px;
+}
+
+.sign-up-title {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-top: 25%;
+}
+
+.sign-up-top-tile {
+	font-family: 'MontserratRegular';
+	color: #FFFFFF;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.sign-up-next-title {
+	font-family: 'MontserratSemiBold';
+	margin-bottom: 0px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.sign-up-form {
+	background: #FFFFFF;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px .5px #c6c5c5;
+	margin-top: -50px;
+	margin-bottom: -50px;
+}
+
+.sign-up-form-title {
+	font-family: 'MontserratSemiBold';
+	font-size: 24px;
+	line-height: 42px;
+	color: #202020;
+}
+
+.sign-up-form-table .form-control {
+	font-family: 'OpenSans';
+	display: block;
+	width: 100%;
+	height: calc(1.5em + .75rem + 2px);
+	padding: .375rem .75rem;
+	font-size: .875rem;
+	font-weight: 400;
+	line-height: 2.625rem;
+	color: #5a6e79;
+	background-color: #fff;
+	background-clip: padding-box;
+	border-bottom: 1px solid #ced4da;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	border-bottom: 1px solid #ced4da;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.sign-up-form-table .form-control:focus {
+	box-shadow: none;
+}
+
+.prometium-checkbox {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.prometium-checkbox label {
+	font-family: OpenSans;
+	font-size: 13px;
+	color: #87959c;
+}
+
+.container_check {
+	position: relative;
+	font-size: 14px;
+	font-size: .875rem;
+	padding-left: 20px;
+	line-height: 1.3;
+	margin-bottom: 10px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.sign-up-button-call {
+	padding-top: 25px;
+}
+
+.sign-up-button {
+	color: #FFFFFF;
+	padding: 10px 25px;
+	background: #0bd7fc;
+	border-radius: 100px
+}
+
+.call-us {
+	font-family: 'OpenSans';
+	font-size: 13px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #5a6e79;
+	position: absolute;
+	top: -10px;
+}
+
+.call-number {
+	font-family: 'MontserratRegular';
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #6559dd;
+	top: 10px;
+	position: absolute;
+}
+
+.already-account-area {
+	padding-top: 30px;
+}
+
+.already-account {
+	font-family: OpenSans;
+	font-size: 13px;
+	line-height: 20px;
+	color: #87959c;
+	text-decoration: underline;
+}
+
+/* Sign Up Area End */
 
 
 

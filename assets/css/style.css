@@ -263,9 +263,14 @@ p {
 	background: #4A95DB;
 	color: #FFFFFF;
 	border: 1px solid #FFFFFF;
-}	
+}
 
-.features-top-tile {
+.features-title {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.features-title h6 {
 	font-family: 'MontserratRegular';
 	color: #87959c;
 	font-size: 15px;
@@ -276,10 +281,9 @@ p {
 	margin-bottom: 10px;
 }
 
-.features-title {
-	font-family: 'MontserratSemiBold';
-	text-align: center;
-	margin-bottom: 60px;
+.slider-icon img {
+	width: 85px;
+	margin-top: 7px;
 }
 
 .slider-info.d-flex {
@@ -319,7 +323,7 @@ p {
 	margin-top: 50px;
 }
 
-.client-testmonial-top-tile {
+.client-testmonial-title h6 {
 	font-family: 'MontserratRegular';
 	color: #87959c;
 	font-size: 15px;
@@ -330,7 +334,7 @@ p {
 	margin-bottom: 10px;
 }
 
-.client-testmonial-next-title {
+.client-testmonial-title h2 {
 	font-family: 'MontserratSemiBold';
 	text-align: center;
 	margin-bottom: 60px;
@@ -507,7 +511,7 @@ hr.expertise-company-hr {
 	padding-top: 50px;
 }
 
-.team-member-top-tile {
+.team-member-title h6 {
 	font-family: 'MontserratRegular';
 	color: #87959c;
 	font-size: 15px;
@@ -518,7 +522,7 @@ hr.expertise-company-hr {
 	text-align: center;
 }
 
-.team-member-next-title {
+.team-member-title h2 {
 	font-family: 'MontserratSemiBold';
 	margin-bottom: 0px;
 	text-align: center;
@@ -575,9 +579,10 @@ p.team-member-designation {
 
 .plan-pricing-title {
 	padding-bottom: 75px;
+	padding-top: 50px;
 }
 
-.plan-pricing-top-tile {
+.plan-pricing-title h6 {
 	font-family: 'MontserratRegular';
 	color: #87959c;
 	font-size: 15px;
@@ -588,7 +593,7 @@ p.team-member-designation {
 	text-align: center;
 }
 
-.plan-pricing-next-title {
+.plan-pricing-title h2 {
 	font-family: 'MontserratSemiBold';
 	margin-bottom: 0px;
 	text-align: center;
@@ -891,11 +896,11 @@ a.premium-plan-pricing-button:hover {
 /* Business Partner Area Start */
 
 .business-partner-title {
-	padding-top: 115px;
+	padding-top: 150px;
 	padding-bottom: 75px;
 }
 
-.business-partner-top-tile {
+.business-partner-title h6 {
 	font-family: 'MontserratRegular';
 	color: #87959c;
 	font-size: 15px;
@@ -906,7 +911,7 @@ a.premium-plan-pricing-button:hover {
 	text-align: center;
 }
 
-.business-partner-next-title {
+.business-partner-title h2 {
 	font-family: 'MontserratSemiBold';
 	margin-bottom: 0px;
 	text-align: center;
@@ -1065,6 +1070,7 @@ a.premium-plan-pricing-button:hover {
 	font-family: OpenSans;
 	font-size: 13px;
 	color: #87959c;
+	padding-top: 3px;
 }
 
 .container_check {
@@ -1089,7 +1095,15 @@ a.premium-plan-pricing-button:hover {
 	color: #FFFFFF;
 	padding: 10px 25px;
 	background: #0bd7fc;
-	border-radius: 100px
+	border-radius: 100px;
+	display: block;
+	text-align: center;
+}
+
+a.sign-up-button:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+	background: #4A95DB;
 }
 
 .call-us {
@@ -1098,7 +1112,6 @@ a.premium-plan-pricing-button:hover {
 	line-height: 20px;
 	font-weight: bold;
 	color: #5a6e79;
-	position: absolute;
 	top: -10px;
 }
 
@@ -1109,7 +1122,6 @@ a.premium-plan-pricing-button:hover {
 	font-weight: bold;
 	color: #6559dd;
 	top: 10px;
-	position: absolute;
 }
 
 .already-account-area {

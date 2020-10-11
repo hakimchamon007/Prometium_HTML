@@ -1112,6 +1112,7 @@ a.sign-up-button:hover {
 	color: #5a6e79;
 	display: block;
 	padding: 0px;
+	margin-top: -5px;
 }
 
 .call-number {
@@ -1121,6 +1122,7 @@ a.sign-up-button:hover {
 	font-weight: bold;
 	color: #6559dd;
 	display: block;
+	margin-top: -5px;
 }
 
 .already-account-area {
